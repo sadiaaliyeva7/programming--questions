@@ -1,0 +1,1344 @@
+QRUP 1
+1. 4 ədəddən ən böyüyünü tapan proqram
+a = float(input("Birinci ədəd: "))
+b = float(input("İkinci ədəd: "))
+c = float(input("Üçüncü ədəd: "))
+d = float(input("Dördüncü ədəd: "))
+print(max(a, b, c, d))
+
+
+
+2. 5 ədəddən ən böyüyünü tapan proqram
+python
+a = float(input("Birinci ədəd: "))
+b = float(input("İkinci ədəd: "))
+c = float(input("Üçüncü ədəd: "))
+d = float(input("Dördüncü ədəd: "))
+e = float(input("Beşinci ədəd: "))
+print(max(a, b, c, d, e))
+
+
+
+3. 1-75 arası tək ədədləri tapan proqram
+python
+print([i for i in range(1, 76) if i % 2 != 0])
+
+
+
+4. 1-93 arası tək ədədlərin kvadratlarını tapan proqram
+python
+print([i**2 for i in range(1, 94) if i % 2 != 0])
+
+
+
+5. 1-120 arası cüt ədədlərin kubunu tapan proqram
+python
+print([i**3 for i in range(1, 121) if i % 2 == 0])
+
+
+
+6. 1-153 arası tək ədədlərin kubunu tapan proqram
+python
+print([i**3 for i in range(1, 154) if i % 2 != 0])
+
+
+
+7. 1-128 arası cüt ədədlərin kvadratları cəmini tapan proqram
+python
+print(sum(i**2 for i in range(1, 129) if i % 2 == 0))
+
+
+
+8. 1-136 arası tək ədədlərin kvadratları cəmini tapan proqram
+python
+print(sum(i**2 for i in range(1, 137) if i % 2 != 0))
+
+
+
+9. 1-185 arası 8-ə bölünən ədədləri tapan proqram
+python
+print([i for i in range(1, 186) if i % 8 == 0])
+
+
+
+10. 1-206 arası 9-a bölünən ədədləri tapan proqram
+python
+print([i for i in range(1, 207) if i % 9 == 0])
+
+
+
+11. 1-58 arası 18-ə bölünən ədədləri tapan proqram
+python
+print([i for i in range(1, 59) if i % 18 == 0])
+
+
+
+12. 1-129 arası 3-ə bölünən ədədləri tapan proqram
+python
+print([i for i in range(1, 130) if i % 3 == 0])
+
+
+
+13. 1-256 arası 7-ə bölünən ədədləri tapan proqram
+python
+print([i for i in range(1, 257) if i % 7 == 0])
+
+
+
+14. 3 rəqəmli ədədin rəqəmləri cəmini tapan proqram
+python
+n = int(input("3 rəqəmli ədəd: "))
+print(n // 100 + (n // 10) % 10 + n % 10)
+
+
+
+15. 4 rəqəmli ədədin rəqəmləri cəmini tapan proqram
+python
+n = int(input("4 rəqəmli ədəd: "))
+print(n // 1000 + (n // 100) % 10 + (n // 10) % 10 + n % 10)
+
+
+
+16. 3 rəqəmli ədədin rəqəmləri hasilini tapan proqram
+python
+n = int(input("3 rəqəmli ədəd: "))
+a, b, c = n // 100, (n // 10) % 10, n % 10
+print(a * b * c)
+
+
+
+17. 4 rəqəmli ədədin rəqəmləri hasilini tapan proqram
+python
+n = int(input("4 rəqəmli ədəd: "))
+a, b, c, d = n // 1000, (n // 100) % 10, (n // 10) % 10, n % 10
+print(a * b * c * d)
+
+
+
+18. 3 rəqəmli ədədin rəqəmlərinin kvadratları cəmini tapan proqram
+python
+n = int(input("3 rəqəmli ədəd: "))
+a, b, c = n // 100, (n // 10) % 10, n % 10
+print(a**2 + b**2 + c**2)
+
+
+
+19. 4 rəqəmli ədədin rəqəmlərinin kvadratları cəmini tapan proqram
+python
+n = int(input("4 rəqəmli ədəd: "))
+a, b, c, d = n // 1000, (n // 100) % 10, (n // 10) % 10, n % 10
+print(a**2 + b**2 + c**2 + d**2)
+
+
+20. (4!) faktorialın hesablanması proqramı
+python
+import math
+print(math.factorial(4))
+
+
+
+21. (5!) faktorialın hesablanması proqramı
+python
+import math
+print(math.factorial(5))
+
+
+
+22. 4 ədəddən ən kiçiyini tapan proqram
+python
+a = float(input("Birinci ədəd: "))
+b = float(input("İkinci ədəd: "))
+c = float(input("Üçüncü ədəd: "))
+d = float(input("Dördüncü ədəd: "))
+print(min(a, b, c, d))
+
+
+
+23. 5 ədəddən ən kiçiyini tapan proqram
+python
+a = float(input("Birinci ədəd: "))
+b = float(input("İkinci ədəd: "))
+c = float(input("Üçüncü ədəd: "))
+d = float(input("Dördüncü ədəd: "))
+e = float(input("Beşinci ədəd: "))
+print(min(a, b, c, d, e))
+
+
+
+24. Klaviaturadan daxil edilən ədədin hansısa ədədin kvadratı olub-olmadığını yoxlayan proqram
+python
+n = int(input("Ədəd: "))
+print("Kvadratdır" if (n**0.5).is_integer() else "Kvadrat deyil")
+
+
+
+25. Klaviaturadan daxil edilən ədədin polindrom olub-olmadığını yoxlayan proqram
+python
+n = input("Ədəd: ")
+print("Polindromdur" if n == n[::-1] else "Polindrom deyil")
+
+
+26. a=3, b=4, c=-35 olduqda kvadrat tənliyin köklərini tapan proqram
+python
+import cmath
+a, b, c = 3, 4, -35
+d = (b**2) - (4*a*c)
+print((-b + cmath.sqrt(d)) / (2*a))
+print((-b - cmath.sqrt(d)) / (2*a))
+
+
+
+27. a=5, b=-6, c=15 olduqda kvadrat tənliyin köklərini tapan proqram
+python
+import cmath
+a, b, c = 5, -6, 15
+d = (b**2) - (4*a*c)
+print((-b + cmath.sqrt(d)) / (2*a))
+print((-b - cmath.sqrt(d)) / (2*a))
+
+
+28. a=12, b=-6, c=11 olduqda kvadrat tənliyin köklərini tapan proqram
+python
+import cmath
+a, b, c = 12, -6, 11
+d = (b**2) - (4*a*c)
+print((-b + cmath.sqrt(d)) / (2*a))
+print((-b - cmath.sqrt(d)) / (2*a))
+
+
+
+29. a=2, b=16, c=-26 olduqda kvadrat tənliyin köklərini tapan proqram
+python
+import cmath
+a, b, c = 2, 16, -26
+d = (b**2) - (4*a*c)
+print((-b + cmath.sqrt(d)) / (2*a))
+print((-b - cmath.sqrt(d)) / (2*a))
+
+
+
+30. 3 rəqəmli ədədin ən azı 2 ədədinin eyni olub-olmadığını yoxlayan proqram
+python
+n = input("3 rəqəmli ədəd: ")
+print("Bəli" if len(set(n)) < 3 else "Xeyr")
+
+
+
+31. switch-case ilə istifadəçinin daxil etdiyi ayın neçə gün olduğunu çap edin (fevralı 28 gün qəbul edin)
+python
+ay = int(input("Ay nömrəsi (1-12): "))
+if ay in [1,3,5,7,8,10,12]:
+    print(31)
+elif ay in [4,6,9,11]:
+    print(30)
+else:
+    print(28)
+
+
+32. İstifadəçinin daxil etdiyi ədədin tək/cüt, müsbət/mənfi və ya sıfır olduğunu tək bir if-else zənciri ilə yoxlayın
+python
+n = int(input("Ədəd: "))
+if n == 0:
+    print("Sıfır")
+else:
+    print(("Mənfi", "Müsbət")[n > 0], ("Cüt", "Tək")[n % 2 != 0])
+
+
+33. İstifadəçidən alınan ədədin rəqəmlərinin artan sırada olub-olmadığını yoxlayın
+python
+n = input("Ədəd: ")
+print("Bəli" if list(n) == sorted(n) else "Xeyr")
+
+
+34. 1-dən N-ə qədər ədədlərin cəmini for döngüsü ilə tapın
+python
+n = int(input("N: "))
+print(sum(range(1, n+1)))
+
+
+35. Tək sətirdə ulduzlarla piramida çap edin (nested for)
+python
+n = 5
+for i in range(1, n+1):
+    print(" "*(n-i) + "*"*(2*i-1))
+
+
+36. Verilmiş ədədin faktorialını for döngüsü ilə hesablayın
+python
+n = int(input("Ədəd: "))
+f = 1
+for i in range(1, n+1):
+    f *= i
+print(f)
+
+
+37. 1-dən 1000-ə qədər ədədlərdə rəqəmlərinin cəmi 10 olanları tapın
+python
+print([i for i in range(1, 1001) if sum(map(int, str(i))) == 10])
+
+
+
+
+38. İstifadəçidən parol soruşun. 3 dəfə səhv cavabda proqramı dayandırın (while və counter ilə)
+python
+parol = "secret"
+cehd = 0
+while cehd < 3:
+    if input("Parol: ") == parol:
+        print("Daxil oldunuz")
+        break
+    cehd += 1
+else:
+    print("Hesab bloklandı")
+
+
+39. Ədədin rəqəmlərinin sayını while ilə hesablayın
+python
+n = int(input("Ədəd: "))
+count = 0
+while n:
+    count += 1
+    n //= 10
+print(count)
+
+
+
+40. İstifadəçi 0 daxil edənə qədər ədədlərin cəmini hesablayın
+python
+total = 0
+while (n := int(input("Ədəd: "))) != 0:
+    total += n
+print(total)
+
+
+
+41. Tək ədəd daxil edənə qədər istifadəçidən ədəd alın və cəmi çap edin
+python
+total = 0
+while True:
+    n = int(input("Ədəd: "))
+    if n % 2 != 0:
+        break
+    total += n
+print(total)
+
+
+42. İstifadəçinin balını (0-100) 5-lik sistemə çevirin (if/else ilə)
+python
+bal = int(input("Bal (0-100): "))
+if bal >= 90: print(5)
+elif bal >= 80: print(4)
+elif bal >= 70: print(3)
+elif bal >= 60: print(2)
+else: print(1)
+
+
+43. ATM proqramı: minimum sayda əskinasla məbləği verin
+python
+mebleg = int(input("Məbləğ: "))
+for eskinas in [200, 100, 50, 20]:
+    say = mebleg // eskinas
+    if say: 
+        print(f"{say} x {eskinas} AZN")
+        mebleg %= eskinas
+
+
+44. İstifadəçinin çəkisi (kq) və boyunu (m) daxil edərək BMI hesablayın və kateqoriyanı göstərin
+python
+ceki = float(input("Çəki (kq): "))
+boy = float(input("Boy (m): "))
+bmi = ceki / (boy**2)
+print(f"BMI: {bmi:.1f} - ", end="")
+if bmi < 18.5: print("Aşağı çəki")
+elif bmi < 25: print("Normal")
+elif bmi < 30: print("Artıq çəki")
+else: print("Piylənmə")
+
+
+
+45. Təqvim proqramı: Verilmiş ay və ildə neçə gün olduğunu tapın (leap year şərti)
+python
+ay = int(input("Ay (1-12): "))
+il = int(input("İl: "))
+if ay in [1,3,5,7,8,10,12]:
+    print(31)
+elif ay in [4,6,9,11]:
+    print(30)
+else:
+    print(29 if (il % 4 == 0 and il % 100 != 0) or il % 400 == 0 else 28)
+
+
+46. Fibonacci ardıcıllığını N-ci elementə qədər çap edin
+python
+n = int(input("N: "))
+a, b = 0, 1
+for _ in range(n):
+    print(a, end=" ")
+    a, b = b, a+b
+
+
+47. 1-dən N-ə qədər ədədlərdə 3-ə və 5-ə bölünənləri "FizzBuzz", yalnız 3-ə → "Fizz", yalnız 5-ə → "Buzz" çap edin
+python
+n = int(input("N: "))
+for i in range(1, n+1):
+    if i % 15 == 0: print("FizzBuzz")
+    elif i % 3 == 0: print("Fizz")
+    elif i % 5 == 0: print("Buzz")
+    else: print(i)
+
+
+48. Verilmiş ədədin sadə vuruqlarını tapın
+python
+n = int(input("Ədəd: "))
+i = 2
+while i * i <= n:
+    if n % i:
+        i += 1
+    else:
+        print(i)
+        n //= i
+if n > 1: print(n)
+
+
+  QRUP 2
+
+49. İstifadəçinin daxil etdiyi simvolun sait/samit olub-olmadığını yoxlayın
+python
+ch = input("Simvol: ").lower()
+if ch in "aeiouəıiouöü":
+    print("Saitdir")
+else:
+    print("Samitdir")
+
+
+50. İstifadəçidən ad və parol soruşun. Parol 8 simvoldan azdırsa, yenidən daxil etməyi tələb edin
+python
+ad = input("Ad: ")
+while True:
+    parol = input("Parol: ")
+    if len(parol) >= 8:
+        break
+
+
+
+51. ATM Şifrəsi: İstifadəçi 4 rəqəmli şifrə daxil edir. Şifrə yalnız rəqəmlərdən ibarət olmalıdır
+python
+sifre = input("4 rəqəmli şifrə: ")
+if sifre.isdigit() and len(sifre) == 4:
+    print("Qəbul olundu")
+else:
+    print("Yalnız 4 rəqəm daxil edin!")
+
+
+
+52. Yaş Validasiyası: İstifadəçi 18 yaşdan kiçikdirsə, "Giriş qadağandır!" çap edin
+python
+yas = int(input("Yaş: "))
+if yas < 18:
+    print("Giriş qadağandır!")
+
+
+
+53. Kredit Kalkulyatoru: Əsas məbləğ, faiz dərəcəsi və müddət (il) daxil edin. Aylıq ödənişi hesablayın
+python
+esas = float(input("Əsas məbləğ: "))
+faiz = float(input("Faiz (%): "))
+muddet = int(input("Müddət (il): "))
+ayliq = (esas * (faiz/100) * muddet + esas) / (muddet*12)
+print(f"Aylıq ödəniş: {ayliq:.2f}")
+
+
+
+54. Valyuta Çevirici: İstifadəçi valyuta seçir (USD, EUR) və AZN məbləğini çevirir
+python
+val = input("Valyuta (USD/EUR): ")
+azn = float(input("AZN: "))
+usd, eur = 1.7, 1.85
+if val == "USD":
+    print(azn/usd)
+elif val == "EUR":
+    print(azn/eur)
+
+
+
+55. İstifadəçi əmanət məbləği və müddət daxil edir. Aylıq faiz gəlirini hesablayın
+python
+emanet = float(input("Əmanət: "))
+muddet = int(input("Müddət (ay): "))
+faiz = float(input("Aylıq faiz (%): "))
+print(f"Aylıq gəlir: {emanet * faiz / 100:.2f}")
+
+
+
+
+56. Zər Oyunu: İstifadəçi ilə kompüter arasında zər atılır. Böyük zəri atan qalib gəlir
+python
+import random
+user = random.randint(1,6)
+comp = random.randint(1,6)
+print("İstifadəçi:", user, "Kompüter:", comp)
+if user > comp:
+    print("Qalib: İstifadəçi")
+elif comp > user:
+    print("Qalib: Kompüter")
+else:
+    print("Heç-heçə")
+
+
+
+57. Təxmin Oyunu: 1-100 arası təsadüfi ədəd yaradın. İstifadəçi 5 cəhddə təxmin etməlidir
+python
+import random
+num = random.randint(1,100)
+for i in range(5):
+    guess = int(input("Təxmin: "))
+    if guess == num:
+        print("Təbriklər!")
+        break
+else:
+    print("Uduzdunuz. Ədəd:", num)
+
+
+
+58. Alış-Veriş Səbəti: Məhsul əlavə edir (qiymət və say). Ümumi məbləği və endirimi hesablayın (200 AZN-dən çox alışda 10% endirim)
+python
+total = 0
+while True:
+    qiymet = float(input("Məhsul qiyməti (0 çıxmaq üçün): "))
+    if qiymet == 0:
+        break
+    say = int(input("Say: "))
+    total += qiymet * say
+if total > 200:
+    total *= 0.9
+print(f"Ümumi məbləğ: {total:.2f}")
+
+
+
+
+59. Hava Proqnozu: Temperatur daxil edin. 0°C-dən aşağı "Soyuq", 30°C-dən yuxarı "Çox isti" çap edin
+python
+t = float(input("Temperatur: "))
+if t < 0:
+    print("Soyuq")
+elif t > 30:
+    print("Çox isti")
+
+
+
+
+60. İstifadəçidən 1-12 arası ay nömrəsi daxil etməsini tələb edin (do-while ilə validation)
+python
+while True:
+    ay = int(input("Ay (1-12): "))
+    if 1 <= ay <= 12:
+        break
+
+
+
+61. İstifadəçinin daxil etdiyi sətrin palindrom olub-olmadığını yoxlayın
+python
+s = input("Sətir: ")
+if s == s[::-1]:
+    print("Polindrom")
+else:
+    print("Polindrom deyil")
+
+
+
+62. Fitness Proqramı: İstifadəçi addımların sayını daxil edir. Hər 5000 addıma görə "Mükafat qazandınız!" çap edin
+python
+steps = int(input("Addımlar: "))
+if steps >= 5000:
+    print("Mükafat qazandınız!")
+
+
+
+63. İmtahan Nəticəsi: 5 fənnin balını daxil edin. Ortalama 60-dan yuxarıdırsa "Keçdiniz"
+python
+balls = [int(input(f"Fənn {i+1}: ")) for i in range(5)]
+if sum(balls)/5 > 60:
+    print("Keçdiniz")
+else:
+    print("Kəsildiniz")
+
+
+64. Tələbə Qiymətləndirmə: 3 imtahan balı daxil edin. Ən yüksək iki balın ortalamasını hesablayın
+python
+marks = sorted([int(input(f"Bal {i+1}: ")) for i in range(3)], reverse=True)
+print((marks[0] + marks[1]) / 2)
+
+
+
+65. Kurs Seçimi: Kurs nömrəsi seçir (1-5). Uyğun kursun adını çap edin (switch-case)
+python
+kurs = int(input("Kurs (1-5): "))
+adlar = {1: "Python", 2: "Java", 3: "C++", 4: "Web", 5: "Linux"}
+print(adlar.get(kurs, "Yanlış seçim"))
+
+
+
+66. Təyyarə Bileti: İşçi/tələbə statusunu seçir. Tələbələrə 20% endirim tətbiq edin
+python
+status = input("Status (işçi/tələbə): ")
+qiymet = 100
+if status == "tələbə":
+    qiymet *= 0.8
+print(qiymet)
+
+
+
+67. Otel Rezervasiya: Gün sayını daxil edin. 3 gündən çox qalındıqda hər gün üçün 10% endirim
+python
+gun = int(input("Gün: "))
+qiymet = 50 * gun
+if gun > 3:
+    qiymet *= 0.9
+print(qiymet)
+
+
+
+68. Avtobus Bileti: Dayanacaqlar arası məsafəni daxil edin. Hər km üçün 0.2 AZN hesabla ümumi məbləği çap edin
+python
+mesafe = float(input("Məsafə (km): "))
+print(mesafe * 0.2)
+
+
+
+69. Şifrə Generatoru: Təsadüfi 6 rəqəmli şifrə yaradın
+python
+import random
+print(random.randint(100000, 999999))
+
+
+
+70. Parol Təhlükəsizliyi: Parolda ən az 1 böyük hərf, 1 rəqəm və 1 simvol olub-olmadığını yoxlayın
+python
+parol = input("Parol: ")
+if (any(c.isupper() for c in parol) and 
+    any(c.isdigit() for c in parol) and 
+    any(not c.isalnum() for c in parol)):
+    print("Təhlükəsiz")
+else:
+    print("Təhlükəsiz deyil")
+
+
+
+71. BMI Kalkulyatoru: Çəki və boy daxil edin. BMI hesablayın və kateqoriyanı göstərin
+python
+ceki = float(input("Çəki (kq): "))
+boy = float(input("Boy (m): "))
+bmi = ceki / (boy**2)
+print(f"BMI: {bmi:.1f}")
+if bmi < 18.5:
+    print("Aşağı çəki")
+elif bmi < 25:
+    print("Normal")
+elif bmi < 30:
+    print("Artıq çəki")
+else:
+    print("Piylənmə")
+
+
+
+72. Yemək Kalorisi: İstifadəçi yemək seçir (1-5). Hər yeməyin kalorisi məlumatını çap edin
+python
+kalori = [400, 600, 350, 500, 700]
+secim = int(input("Yemək (1-5): "))
+print(f"Kalori: {kalori[secim-1]}")
+
+
+
+73. Elektrik Hesabı: Aylıq istifadəni (kWh) daxil edir. 100 kWh-dən çox istifadədə hər kWh üçün 0.2 AZN
+python
+istifade = float(input("İstifadə (kWh): "))
+if istifade > 100:
+    print(istifade * 0.2)
+else:
+    print(0)
+
+
+
+74. Park Ödənişi: Saat sayını daxil edir. İlk 1 saat pulsuz, hər sonrakı saat 1 AZN
+python
+saat = int(input("Saat: "))
+odenis = max(0, saat-1) * 1
+print(odenis)
+
+
+
+75. Kitabxana Cəriməsi: Gecikmiş gün sayını daxil edir. Hər gün üçün 0.5 AZN cərimə
+python
+gun = int(input("Gecikmiş gün: "))
+print(gun * 0.5)
+
+
+76. Nested if-else ilə Kateqoriləşdirmə: Daxil edilən tam ədədi “mənfi”, “sıfır” və “müsbət” kateqoriyalarına bölün, müsbətləri “kiçik” və “böyük” alt qruplaşdırın
+python
+n = int(input("Ədəd: "))
+if n < 0:
+    print("Mənfi")
+elif n == 0:
+    print("Sıfır")
+else:
+    if n < 100:
+        print("Müsbət, Kiçik")
+    else:
+        print("Müsbət, Böyük")
+
+
+
+77. Grade Dəyərləndirmə: Balına əsasən (0-100) hərf qiyməti (A, B, C, D, F) təyin edin
+python
+bal = int(input("Bal: "))
+if bal >= 90:
+    print("A")
+elif bal >= 80:
+    print("B")
+elif bal >= 70:
+    print("C")
+elif bal >= 60:
+    print("D")
+else:
+    print("F")
+
+
+
+78. Vurma Cədvəli: 1-dən 10-a qədər vurma cədvəlini formatlı şəkildə ekrana çap edin
+python
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(f"{i*j:4}", end="")
+    print()
+
+
+
+79. Break və Continue İlə Filtrləmə: 1-dən 100-ə qədər ədədlər içərisindən yalnız tək ədədləri çap edin; dövr daxilində break və continue istifadə olunaraq filtr tətbiq edilsin
+python
+for i in range(1, 101):
+    if i % 2 == 0:
+        continue
+    print(i)
+    if i > 90:
+        break
+
+
+
+80. Verilmiş massivdəki elementlərin orta qiymətini hesablayın
+python
+arr = [1,2,3,4,5]
+print(sum(arr)/len(arr))
+
+
+
+81. Bir massiv yaradın və tək elementləri çap edin
+python
+arr = [1,2,3,4,5,7]
+print([i for i in arr if i % 2 != 0])
+
+
+
+
+82. Bir massiv yaradın və cüt elementləri çap edin
+python
+arr = [1,2,3,4,5,8]
+print([i for i in arr if i % 2 == 0])
+
+
+
+
+83. Bir massivdə təkrarlanan elementləri tapıb çap edin
+python
+arr = [1,2,2,3,3,4]
+print(set([x for x in arr if arr.count(x) > 1]))
+
+
+
+84. 2x2 ölçülü bir matris yaradıb elementlərini daxil edin
+python
+matris = [[int(input(f"Element [{i}][{j}]: ")) for j in range(2)] for i in range(2)]
+
+
+
+
+85. 3x3 ölçülü bir matris yaradıb elementlərini təsadüfi ədədlərlə doldurun
+python
+import random
+matris = [[random.randint(1,9) for _ in range(3)] for _ in range(3)]
+print(matris)
+
+
+
+86. Verilmiş matrisdə bütün elementləri çap edən proqram yazın
+python
+for row in matris:
+    print(*row)
+
+
+
+87. Verilmiş matrisdə cüt elementləri çap edin
+python
+for row in matris:
+    print([x for x in row if x % 2 == 0])
+
+
+
+88. Verilmiş matrisdə tək elementləri çap edin
+python
+for row in matris:
+    print([x for x in row if x % 2 != 0])
+
+
+
+89. Verilmiş matrisdəki elementlərin cəmini hesablayın
+python
+print(sum(sum(row) for row in matris))
+
+
+
+90. Matrisin determinantını hesablayan proqram yaradın
+python
+matris = [[int(input()) for _ in range(2)] for _ in range(2)]
+det = matris[0][0]*matris[1][1] - matris[0][1]*matris[1][0]
+print(det)
+
+
+91. Daxil edilən rəqəmin 3-ə və 4-ə bölünə bilən olub-olmadığını yoxlayan proqram yaradın
+python
+n = int(input())
+if n % 3 == 0 and n % 4 == 0:
+    print("Bölünür")
+else:
+    print("Bölünmür")
+
+
+
+92. Daxil edilən mətnin boş olub olmadığını yoxlayan proqram yaradın
+python
+s = input()
+if s == "":
+    print("Boşdur")
+else:
+    print("Boş deyil")
+
+
+
+93. Verilmiş massivdə təkrarlanan elementləri silən funksiya yazın
+python
+arr = [1,2,2,3]
+print(list(dict.fromkeys(arr)))
+
+
+
+94. 2D massivdə ən böyük elementi tapın
+python
+matris = [[1,2],[3,4]]
+print(max(max(row) for row in matris))
+
+
+
+95. Məhsul İnventarı: 1D massivdə məhsul qiymətlərini saxlayın. Funksiya ilə ən bahalı 3 məhsulu çap edin
+python
+qiymetler = [120, 80, 150, 60, 200]
+print(sorted(qiymetler, reverse=True)[:3])
+
+
+
+96. 2D massivdə tələbələrin fənn üzrə ballarını saxlayın (5 tələbə, 3 fənn). Hər tələbənin orta balını hesablayın
+python
+netice = [[80,90,70],[60,75,85],[95,88,92],[55,65,70],[78,80,82]]
+for t in netice:
+    print(sum(t)/len(t
+
+
+97. İstifadəçi alış-veriş siyahısı üçün məhsul adları daxil edir. Massivi istifadə edərək siyahıya əlavə etmək, silmək və axtarış etmək funksiyası yazın.
+python
+def elave_et(siyahi, mehsul):
+    siyahi.append(mehsul)
+
+def sil(siyahi, mehsul):
+    if mehsul in siyahi:
+        siyahi.remove(mehsul)
+
+def axtar(siyahi, mehsul):
+    return mehsul in siyahi
+
+siyahi = []
+elave_et(siyahi, "çörək")
+elave_et(siyahi, "süd")
+sil(siyahi, "çörək")
+print(axtar(siyahi, "süd"))
+
+
+
+98. Kinoteatrda oturacaq rezervasiya sistemində 2D matrisdən istifadə edin. İstifadəçi sıra və oturacaq nömrəsi seçərək rezervasiya edə bilməlidir.
+python
+sira = 5
+yer = 5
+zallar = [[0]*yer for _ in range(sira)]
+i = int(input("Sıra: "))
+j = int(input("Oturacaq: "))
+if zallar[i][j] == 0:
+    zallar[i][j] = 1
+    print("Rezervasiya olundu")
+else:
+    print("Artıq doludur")
+
+
+
+
+99. İstifadəçi massiv daxil edir. Onun shallow copy yaradın, kopyada dəyişiklik etdikdə orijinalın dəyişdiyini göstərin.
+python
+arr = [1, 2, [3, 4]]
+copy_arr = arr.copy()
+copy_arr[2][0] = 99
+print("Orijinal:", arr)
+print("Kopya:", copy_arr)
+
+
+
+
+100. İstifadəçi massiv daxil edir. Deep copy yaradın, kopyada dəyişiklik orijinala təsir etməsin.
+python
+import copy
+arr = [1, 2, [3, 4]]
+copy_arr = copy.deepcopy(arr)
+copy_arr[2][0] = 99
+print("Orijinal:", arr)
+print("Kopya:", copy_arr)
+
+
+
+101. İstifadəçi ədədlər massivi daxil edir. Massivi tərsinə çevirən funksiya yazın.
+python
+def ters(arr):
+    return arr[::-1]
+
+arr = [int(x) for x in input("Ədədləri boşluqla daxil et: ").split()]
+print(ters(arr))
+
+
+
+102. İstifadəçi temperatur dəyərləri daxil edir. Massivdə minimum və maksimumu tapın.
+python
+arr = [float(x) for x in input("Temperaturları boşluqla daxil et: ").split()]
+print("Minimum:", min(arr))
+print("Maksimum:", max(arr))
+
+
+
+103. İstifadəçi mətnlər massivi daxil edir. Uzunluğu 5-dən çox olan elementləri silin.
+python
+arr = input("Mətnləri boşluqla daxil et: ").split()
+arr = [x for x in arr if len(x) <= 5]
+print(arr)
+
+
+
+104. İstifadəçi tədbir üçün iştirakçıların siyahısını daxil edir. Təkrar olunan adları silin.
+python
+arr = input("Adları boşluqla daxil et: ").split()
+print(list(dict.fromkeys(arr)))
+
+
+
+
+105. İstifadəçi ədəd daxil edir. Massivdə bu ədədin indeksini tapın.
+python
+arr = [int(x) for x in input("Ədədləri boşluqla daxil et: ").split()]
+n = int(input("Axtarılan ədəd: "))
+print(arr.index(n))
+
+
+
+
+106. İstifadəçi iki ölçülü massiv (matris) daxil edir. Diagonal elementlərin cəmini hesablayın.
+python
+n = int(input("Matris ölçüsü: "))
+matris = [[int(input(f"Element [{i}][{j}]: ")) for j in range(n)] for i in range(n)]
+print("Diagonal cəm:", sum(matris[i][i] for i in range(n)))
+
+
+
+107. İstifadəçi ədədlər massivi daxil edir. Elementlərin ədədi ortasını və medianını tapın.
+python
+arr = [int(x) for x in input("Ədədləri boşluqla daxil et: ").split()]
+arr.sort()
+print("Orta:", sum(arr)/len(arr))
+print("Median:", arr[len(arr)//2] if len(arr)%2 else (arr[len(arr)//2-1]+arr[len(arr)//2])/2)
+
+
+
+108. İstifadəçi ad, yaş, email daxil edir. Bu məlumatları obyekt kimi saxlayın.
+python
+user = {"ad": input("Ad: "), "yas": int(input("Yaş: ")), "email": input("Email: ")}
+print(user)
+
+
+
+109. İstifadəçi iki obyekt daxil edir. Onları shallow copy ilə birləşdirin və problemi nümayiş etdirin.
+python
+a = {"ad": "A", "info": {"yas": 20}}
+b = {"ad": "B", "info": {"yas": 25}}
+c = a.copy()
+c.update(b)
+c["info"]["yas"] = 99
+print(a)
+print(c)
+
+
+
+
+110. İstifadəçi iç-içə obyekt daxil edir. Deep copy yaradaraq dəyişikliyin təsirsizliyini göstərin.
+python
+import copy
+a = {"ad": "A", "info": {"yas": 20}}
+b = copy.deepcopy(a)
+b["info"]["yas"] = 99
+print(a)
+print(b)
+
+
+
+111. İstifadəçi məhsul adı, qiymət, stok daxil edir. Məhsul obyektini yaradın və stokdan çıxarış edin.
+python
+product = {"ad": input("Məhsul adı: "), "qiymet": float(input("Qiymət: ")), "stok": int(input("Stok: "))}
+miqdar = int(input("Çıxarış: "))
+if product["stok"] >= miqdar:
+    product["stok"] -= miqdar
+print(product)
+
+
+
+
+112. İstifadəçi kitabın adı, müəllif, ili daxil edir. 5 ildən köhnə kitabları filtrləyin.
+python
+from datetime import datetime
+kitablar = [{"ad": input("Ad: "), "muellif": input("Müəllif: "), "il": int(input("İl: "))} for _ in range(3)]
+print([k for k in kitablar if datetime.now().year - k["il"] > 5])
+
+
+
+
+113. İstifadəçi ölkə obyekti (paytaxt, əhali) daxil edir. Obyekti JSON formatına çevirin.
+python
+import json
+olke = {"paytaxt": input("Paytaxt: "), "ehali": int(input("Əhali: "))}
+print(json.dumps(olke))
+
+
+
+
+114. İstifadəçi iki istifadəçi profili daxil edir. Xüsusiyyətləri birləşdirən funksiya yazın.
+python
+def birlesdir(a, b):
+    c = a.copy()
+    c.update(b)
+    return c
+a = {"ad": "A", "yas": 20}
+b = {"email": "a@mail.com"}
+print(birlesdir(a, b))
+
+
+
+
+
+115. İstifadəçi maşın obyekti (model, il, rəng) daxil edir. Rəngi dəyişən metod əlavə edin.
+python
+class Car:
+    def __init__(self, model, il, reng):
+        self.model = model
+        self.il = il
+        self.reng = reng
+    def set_reng(self, yeni):
+        self.reng = yeni
+car = Car("BMW", 2020, "qara")
+car.set_reng("ağ")
+print(car.reng)
+
+
+
+
+116. İstifadəçi əməkdaşların siyahısını (obyekt array) daxil edir. Yaşı 30-dan yuxarı olanları filtrləyin.
+python
+arr = [{"ad": "A", "yas": 25}, {"ad": "B", "yas": 35}]
+print([x for x in arr if x["yas"] > 30])
+
+
+
+117. İstifadəçi məhsul kataloqu daxil edir. Qiyməti 100-dən aşağı olanları konsola çıxarın.
+python
+arr = [{"ad": "A", "qiymet": 120}, {"ad": "B", "qiymet": 80}]
+print([x for x in arr if x["qiymet"] < 100])
+
+
+
+
+118. İstifadəçi parametr vermədən çağırsa, default parametrli funksiya yaş hesablasın.
+python
+def yas_hesabla(il=None):
+    from datetime import datetime
+    if il is None:
+        il = int(input("Doğum ili: "))
+    return datetime.now().year - il
+print(yas_hesabla())
+
+
+
+
+119. İstifadəçi istənilən sayda ədəd daxil edir. Rest parametrli funksiya ilə cəmi tapın.
+python
+def cem(*ededler):
+    return sum(ededler)
+print(cem(1,2,3,4))
+
+
+
+120. İstifadəçi başlama və bitmə dəyərləri daxil edir. Təsadüfi ədəd qaytaran funksiya yazın.
+python
+import random
+def rand(a, b):
+    return random.randint(a, b)
+print(rand(int(input()), int(input())))
+
+
+
+121. İstifadəçi ad daxil edir. IIFE ilə avtomatik salam mesajı çıxarın.
+python
+(lambda ad: print(f"Salam, {ad}!"))(input("Ad: "))
+
+
+
+122. Müştəri məlumatlarını saxlayan obyekt yarat: ad, soyad, yaş. İstifadəçidən daxil et və ekrana yazdır.
+python
+musteri = {"ad": input("Ad: "), "soyad": input("Soyad: "), "yas": int(input("Yaş: "))}
+print(musteri)
+
+
+123. Kitabxanada kitab obyektləri yaradılır. Hər biri ad, müəllif, il daxildir. Arrow function ilə ekrana yazdır.
+python
+kitablar = [{"ad": "A", "muellif": "B", "il": 2010}]
+list(map(lambda x: print(x), kitablar))
+
+
+
+124. Shallow copy ilə bir obyektin kopyasını çıxart. Obyektdəki nested obyekt dəyişəndə fərqi göstər.
+python
+a = {"ad": "A", "info": {"yas": 20}}
+b = a.copy()
+b["info"]["yas"] = 99
+print(a)
+print(b)
+
+
+
+125. Deep copy istifadə edərək obyektin tam surətini çıxart və dəyişiklikləri müqayisə et.
+python
+import copy
+a = {"ad": "A", "info": {"yas": 20}}
+b = copy.deepcopy(a)
+b["info"]["yas"] = 99
+print(a)
+print(b)   
+
+
+
+126. Avtomobil məlumatlarını daxil edən istifadəçidən məlumat al: marka, model, il. Funksiya ilə obyekt yarat.
+python
+def avtomobil_yarat():
+    marka = input("Marka: ")
+    model = input("Model: ")
+    il = int(input("İl: "))
+    return {"marka": marka, "model": model, "il": il}
+print(avtomobil_yarat())
+
+
+
+127. Obyektdə hesablaVergi adlı bir metod yarat. Maaş dəyərini istifadəçidən al və 14% vergi hesabla.
+python
+class Isci:
+    def __init__(self, maas):
+        self.maas = maas
+    def hesablaVergi(self):
+        return self.maas * 0.14
+isci = Isci(float(input("Maaş: ")))
+print(isci.hesablaVergi())
+
+
+
+128. Bir restoran menyusu yaradıb içində qiymət, ad, kateqoriya yerləşdir. Qiymətə görə sıralama et.
+python
+menu = [{"ad": "A", "qiymet": 12, "kateqoriya": "soup"}, {"ad": "B", "qiymet": 8, "kateqoriya": "main"}]
+print(sorted(menu, key=lambda x: x["qiymet"]))
+
+
+
+129. Ev heyvanı olan istifadəçidən məlumat al və obyektə çevir. getAgeInHumanYears metodu yaz.
+python
+class Pet:
+    def __init__(self, ad, yas):
+        self.ad = ad
+        self.yas = yas
+    def getAgeInHumanYears(self):
+        return self.yas * 7
+pet = Pet(input("Ad: "), int(input("Yaş: ")))
+print(pet.getAgeInHumanYears())
+
+
+
+
+130. Shallow copy ilə obyekt kopyala, sonra yeni obyektə yeni property əlavə et. Əvvəlki obyekt dəyişirmi?
+python
+a = {"ad": "A"}
+b = a.copy()
+b["soyad"] = "B"
+print(a)
+print(b)
+
+
+
+131. Deep copy edərək istifadəçinin profilini dəyiş və əvvəlki ilə müqayisə et.
+python
+import copy
+a = {"ad": "A", "info": {"yas": 20}}
+b = copy.deepcopy(a)
+b["ad"] = "B"
+print(a)
+print(b)
+
+
+
+132. Funksiya daxilində daxil olan ədədin sadə olub olmadığını yoxla.
+python
+def sade(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5)+1):
+        if n % i == 0:
+            return False
+    return True
+print(sade(int(input("Ədəd: "))))
+
+
+
+133. İki ədəd daxil edən istifadəçidən məlumat al. Ən böyüyünü return edən arrow function yaz.
+python
+maxi = lambda a, b: a if a > b else b
+print(maxi(int(input("Birinci ədəd: ")), int(input("İkinci ədəd: "))))
+
+
+
+134. İstifadəçi hava temperaturu daxil edir. Ona uyğun geyim təklifi edən funksiya yaz.
+python
+def geyim(t):
+    if t < 10:
+        return "Palto geyin"
+    elif t < 20:
+        return "Ceket geyin"
+    else:
+        return "T-shirt geyin"
+print(geyim(int(input("Temperatur: "))))
+
+
+
+135. Arrow function ilə istifadəçinin daxil etdiyi cümlədə neçə söz olduğunu tap.
+python
+count_words = lambda s: len(s.split())
+print(count_words(input("Cümlə: ")))
+
+
+
+136. Funksiya daxilində istifadəçidən maaş al və vergidən sonrakı miqdarı return et.
+python
+def net_maas():
+    maas = float(input("Maaş: "))
+    return maas * 0.86
+print(net_maas())
+
+
+
+137. shallow copy və deep copy arasındakı fərqi funksiyada tətbiq et və ekrana nəticəni çıxart.
+python
+import copy
+def copy_farki():
+    a = {"info": {"yas": 20}}
+    b = a.copy()
+    c = copy.deepcopy(a)
+    b["info"]["yas"] = 99
+    print("Shallow:", a)
+    c["info"]["yas"] = 77
+    print("Deep:", a)
+copy_farki()
+
+
+
+
+138. Ad və soyad daxil edən istifadəçidən məlumat al. Funksiya daxilində obyekt yaradıb onu qaytar.
+python
+def yarat():
+    return {"ad": input("Ad: "), "soyad": input("Soyad: ")}
+print(yarat())
+
+
+
+
+139. Bir funksiya yaz: daxil olunan obyektin yalnız name property-sini qaytar.
+python
+def name_only(obj):
+    return obj.get("name")
+print(name_only({"name": "Ali", "yas": 20}))
+
+
+
+
+140. Tələbənin daxil etdiyi imtahan ballarını qiymətləndirən funksiya yaz
+python
+def qiymet(bal):
+    if bal >= 90:
+        return "A"
+    elif bal >= 80:
+        return "B"
+    elif bal >= 70:
+        return "C"
+    elif bal >= 60:
+        return "D"
+    else:
+        return "F"
+print(qiymet(int(input("Bal: "))))
+
+
+
+
+141. Arrow function ilə istifadəçidən daxil edilən stringi tərsinə çevirən funksiya yaz.
+python
+reverse = lambda s: s[::-1]
+print(reverse(input("Sətir: ")))
+
+
+
+
+142. Toy qonaqları üçün stul sayı: Tələbə neçə qonaq gələcəyini daxil edir. Hər masa 4 nəfərlikdirsə, neçə masa lazım olduğunu hesablayıb qaytarsın.
+python
+def masalar(sayi):
+    return (sayi + 3) // 4
+print(masalar(int(input("Qonaq sayı: "))))
+
+
+
+
+
+143. Mağazada endirim kampaniyası: İstifadəçi məhsulun qiymətini və endirim faizini daxil edir. function yaz, endirimli qiyməti hesablayıb return etsin.
+python
+def endirim(qiymet, faiz):
+    return qiymet * (1 - faiz/100)
+print(endirim(float(input("Qiymət: ")), float(input("Endirim (%): "))))
+
+
+
+
+
+144. Avtobus bileti hesablaması: İstifadəçi neçə nəfər olduğunu və bir biletin qiymətini daxil edir. function yaz ki, ümumi məbləği hesablayıb return etsin
+python
+def bilet(sayi, qiymet):
+    return sayi * qiymet
+print(bilet(int(input("Sərnişin sayı: ")), float(input("Bilet qiyməti: "))))
